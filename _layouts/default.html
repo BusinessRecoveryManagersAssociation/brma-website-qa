@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark">BRMA</span>
+        <span>Business Recovery Managers Association</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#event">Events</a>
+        <a href="#membership">Membership</a>
+        <a href="#news">News</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    {{ content }}
+  </main>
+
+  <div class="qa-badge">QA SITE</div>
+
+  <script>
+    (function () {
+      const quotes = Array.from(document.querySelectorAll('.quote'));
+      if (!quotes.length) return;
+      let current = 0;
+      function show(i) {
+        quotes.forEach((q, idx) => q.classList.toggle('active', idx === i));
+      }
+      document.querySelector('[data-prev]')?.addEventListener('click', function () {
+        current = (current - 1 + quotes.length) % quotes.length;
+        show(current);
+      });
+      document.querySelector('[data-next]')?.addEventListener('click', function () {
+        current = (current + 1) % quotes.length;
+        show(current);
+      });
+      setInterval(function () {
+        current = (current + 1) % quotes.length;
+        show(current);
+      }, 8000);
+    })();
+  </script>
+</body>
+</html>
