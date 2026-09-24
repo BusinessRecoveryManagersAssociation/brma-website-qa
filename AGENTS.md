@@ -58,6 +58,24 @@ This workflow is already proven in this repository for Renuka Darbha, Shelly Mun
 
 Make only the requested change unless another change is technically required for it to work. Do not add unrelated improvements, research, cleanup, or redesign.
 
+## Production protection rule
+
+All routine edits are made **only in the QA repository/site**.
+
+The production repository/site must never be edited as part of normal maintenance.
+
+Production may be changed only when the user gives an explicit publication instruction, such as:
+
+- "Push this to production."
+- "Publish QA to production."
+- "Update production with QA."
+- "Make production match QA."
+- Equivalent clear language explicitly authorizing a production update.
+
+When such approval is given, promote the approved QA state to production. Do not independently decide that a QA change is ready for production.
+
+If the user does not explicitly authorize production, remain in QA only.
+
 ## QA and publication
 
 Make changes in QA first. A successful commit is not the same as a successful deployment. Do not call a change live or working until the deployment succeeds and the published result is verified as far as available tools allow. Production changes require explicit user approval.
