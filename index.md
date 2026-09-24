@@ -5,22 +5,21 @@ title: Business Recovery Managers Association
 
 <section class="hero">
   <div class="hero-inner">
-    <div>
-      <span class="eyebrow">Business Recovery Managers Association · Since 1995</span>
-      <h1>Build resilience. Learn from peers. Be ready.</h1>
-      <p>BRMA brings together professionals working across business continuity, organizational resiliency, crisis management, disaster recovery, emergency management, and risk.</p>
+    <div class="hero-copy">
+      <span class="eyebrow">Business Recovery Managers Association</span>
+      <h1>Advancing business continuity, organizational resiliency, and risk management.</h1>
+      <p>BRMA connects Bay Area professionals through practical education, peer learning, and professional networking.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="#membership">Become a member</a>
-        <a class="button button-secondary" href="#event">See the next event</a>
+        <a class="hero-link" href="#event">View upcoming events <span aria-hidden="true">→</span></a>
       </div>
     </div>
-    <aside class="hero-panel">
-      <strong>A community built around practice.</strong>
-      <ul>
-        <li>Real-world learning from experienced practitioners</li>
-        <li>Professional networking across industries</li>
-        <li>In-person meetings, webinars, mentoring, and resources</li>
-      </ul>
+    <aside class="hero-aside" aria-label="BRMA focus areas">
+      <div class="hero-aside-label">Since 1995</div>
+      <div class="hero-focus">Educate</div>
+      <div class="hero-focus">Inform</div>
+      <div class="hero-focus">Inspire</div>
+      <div class="hero-focus">Network</div>
     </aside>
   </div>
 </section>
