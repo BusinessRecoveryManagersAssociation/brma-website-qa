@@ -23,6 +23,18 @@ Use the fastest safe path for routine website changes.
 7. Reuse the known repository structure and current project decisions from the same working session. Do not rediscover information that is already known unless there is evidence it may have changed.
 8. Make only the requested change. Do not add enhancements, cleanup, refactors, or troubleshooting that the user did not request.
 
+## Direct execution rule
+
+The purpose of this system is for board members to maintain the website by describing changes in plain language. Preserve that experience.
+
+1. When the user asks ChatGPT/Codex to make a QA website change, perform the repository change directly whenever the connected GitHub tools support it.
+2. Do not tell the user to paste code, edit GitHub files, rename assets, create folders, run commands, or switch to another coding interface for a task that can be completed through the connected tools.
+3. A request such as "do it," "add this image," "change this text," or "update the page" is an instruction to execute the change, not to provide implementation instructions.
+4. Before saying direct repository access is unavailable, check the currently available GitHub tools. Do not assume tools are unavailable merely because a previous tool call failed, a binary asset requires extra handling, or the task needs multiple steps.
+5. If direct execution truly cannot be completed, explain the specific blocking capability only after confirming it. Do not default to a manual copy-and-paste workaround.
+6. If the same type of task was completed directly earlier in the project, use that established workflow again rather than asking the user to perform it manually.
+7. Keep tool mechanics behind the scenes unless the user asks about them. The normal user experience should be: request the change, review QA, approve publication.
+
 ## Image and binary file updates
 
 When a user uploads an image or other binary asset:
