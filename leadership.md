@@ -28,9 +28,12 @@ title: BRMA Leadership
         </div>
       </article>
 
-      <article class="leader-card">
-        <div class="leader-role">Operations Director</div>
-        <h3>Shelly Munoz</h3>
+      <article class="leader-card leader-card-photo">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/shelly-munoz.png" alt="Shelly Munoz">
+        <div class="leader-card-copy">
+          <div class="leader-role">Operations Director</div>
+          <h3>Shelly Munoz</h3>
+        </div>
       </article>
 
       <article class="leader-card">
