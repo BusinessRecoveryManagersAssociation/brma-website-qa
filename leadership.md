@@ -44,24 +44,36 @@ title: BRMA Leadership
         </div>
       </article>
 
-      <article class="leader-card">
-        <div class="leader-role">Membership Director</div>
-        <h3>Scott Baldwin</h3>
+      <article class="leader-card leader-card-photo">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/scott-baldwin.png" alt="Scott Baldwin">
+        <div class="leader-card-copy">
+          <div class="leader-role">Membership Director</div>
+          <h3>Scott Baldwin</h3>
+        </div>
       </article>
 
-      <article class="leader-card">
-        <div class="leader-role">Membership Appointee</div>
-        <h3>Teija Corse</h3>
+      <article class="leader-card leader-card-photo">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/teija-corse.png" alt="Teija Corse">
+        <div class="leader-card-copy">
+          <div class="leader-role">Membership Appointee</div>
+          <h3>Teija Corse</h3>
+        </div>
       </article>
 
-      <article class="leader-card">
-        <div class="leader-role">Finance Director</div>
-        <h3>Uma Danday</h3>
+      <article class="leader-card leader-card-photo">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/uma-danday.png" alt="Uma Danday">
+        <div class="leader-card-copy">
+          <div class="leader-role">Finance Director</div>
+          <h3>Uma Danday</h3>
+        </div>
       </article>
 
-      <article class="leader-card">
-        <div class="leader-role">Technology Director</div>
-        <h3>Francine Sneddon</h3>
+      <article class="leader-card leader-card-photo">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/francine-sneddon.png" alt="Francine Sneddon">
+        <div class="leader-card-copy">
+          <div class="leader-role">Technology Director</div>
+          <h3>Francine Sneddon</h3>
+        </div>
       </article>
 
       <article class="leader-card vacant">
