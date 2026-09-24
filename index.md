@@ -10,7 +10,7 @@ title: Business Recovery Managers Association
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
       <h1>Business Continuity</h1>
       <div class="hero-actions">
-        <a class="button button-primary" href="#membership">Become a Member</a>
+        <a class="button button-primary" href="/brma-website-qa/join.html">Become a Member</a>
         <a class="button button-secondary" href="#about">Learn More</a>
       </div>
     </div>
@@ -22,7 +22,7 @@ title: Business Recovery Managers Association
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
       <h1>Organizational Resiliency</h1>
       <div class="hero-actions">
-        <a class="button button-primary" href="#membership">Become a Member</a>
+        <a class="button button-primary" href="/brma-website-qa/join.html">Become a Member</a>
         <a class="button button-secondary" href="#about">Learn More</a>
       </div>
     </div>
@@ -34,7 +34,7 @@ title: Business Recovery Managers Association
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
       <h1>Risk Management</h1>
       <div class="hero-actions">
-        <a class="button button-primary" href="#membership">Become a Member</a>
+        <a class="button button-primary" href="/brma-website-qa/join.html">Become a Member</a>
         <a class="button button-secondary" href="#about">Learn More</a>
       </div>
     </div>
@@ -120,7 +120,7 @@ title: Business Recovery Managers Association
           <li>Industry information, resources, and a monthly newsletter</li>
           <li>Opportunities to mentor, volunteer, learn, and lead</li>
         </ul>
-        <a class="button button-primary" href="https://brma.com/join/">Join BRMA</a>
+        <a class="button button-primary" href="/brma-website-qa/join.html">Join BRMA</a>
       </div>
 
       <div class="membership-tiers">
