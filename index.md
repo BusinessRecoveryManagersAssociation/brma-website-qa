@@ -8,7 +8,7 @@ title: Business Recovery Managers Association
     <div class="hero-shade"></div>
     <div class="hero-slide-inner">
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
-      <h1>business continuity</h1>
+      <h1>Business Continuity</h1>
       <div class="hero-actions">
         <a class="button button-primary" href="#membership">Become a Member</a>
         <a class="button button-secondary" href="#about">Learn More</a>
@@ -20,7 +20,7 @@ title: Business Recovery Managers Association
     <div class="hero-shade"></div>
     <div class="hero-slide-inner">
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
-      <h1>organizational resiliency</h1>
+      <h1>Organizational Resiliency</h1>
       <div class="hero-actions">
         <a class="button button-primary" href="#membership">Become a Member</a>
         <a class="button button-secondary" href="#about">Learn More</a>
@@ -32,7 +32,7 @@ title: Business Recovery Managers Association
     <div class="hero-shade"></div>
     <div class="hero-slide-inner">
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
-      <h1>risk management</h1>
+      <h1>Risk Management</h1>
       <div class="hero-actions">
         <a class="button button-primary" href="#membership">Become a Member</a>
         <a class="button button-secondary" href="#about">Learn More</a>
