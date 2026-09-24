@@ -76,14 +76,20 @@ title: BRMA Leadership
         </div>
       </article>
 
-      <article class="leader-card vacant">
-        <div class="leader-role">Communications Director</div>
-        <h3>Vacant</h3>
+      <article class="leader-card leader-card-photo vacant">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/vacant-leader.png" alt="">
+        <div class="leader-card-copy">
+          <div class="leader-role">Communications Director</div>
+          <h3>Vacant</h3>
+        </div>
       </article>
 
-      <article class="leader-card vacant">
-        <div class="leader-role">Program Director</div>
-        <h3>Vacant</h3>
+      <article class="leader-card leader-card-photo vacant">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/vacant-leader.png" alt="">
+        <div class="leader-card-copy">
+          <div class="leader-role">Program Director</div>
+          <h3>Vacant</h3>
+        </div>
       </article>
     </div>
   </div>
