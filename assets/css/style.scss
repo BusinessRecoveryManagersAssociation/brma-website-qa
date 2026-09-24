@@ -62,15 +62,12 @@ a { color: var(--brma-blue); }
   letter-spacing: .02em;
 }
 
-.brand-mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  color: white;
-  background: linear-gradient(135deg, var(--brma-blue), var(--brma-green));
-  font-size: .82rem;
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 52px;
+  max-width: 170px;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -525,6 +522,8 @@ a { color: var(--brma-blue); }
   .pillars { grid-template-columns: repeat(2, 1fr); }
   .news-grid { grid-template-columns: 1fr; }
 
+  .brand span { display: none; }
+  .brand-logo { height: 46px; max-width: 150px; }
   .nav-toggle { display: inline-block; }
   .nav-links {
     display: none;
