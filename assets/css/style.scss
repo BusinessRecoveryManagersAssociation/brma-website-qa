@@ -793,3 +793,21 @@ a { color: var(--brma-blue); }
     grid-template-columns: 1fr;
   }
 }
+
+.leader-card-photo {
+  padding: 0;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+.leader-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.leader-card-copy {
+  padding: 22px 24px 24px;
+}
