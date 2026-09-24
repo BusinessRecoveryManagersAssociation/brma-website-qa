@@ -35,6 +35,16 @@ The purpose of this system is for board members to maintain the website by descr
 6. If the same type of task was completed directly earlier in the project, use that established workflow again rather than asking the user to perform it manually.
 7. Keep tool mechanics behind the scenes unless the user asks about them. The normal user experience should be: request the change, review QA, approve publication.
 
+## Enforcement guardrail
+
+For routine QA maintenance, the agent must execute first and explain second.
+
+Before returning any manual instructions, the agent must verify that no connected GitHub/file workflow can complete the task. If the requested task has been completed directly before in this project, reuse that method rather than falling back to user instructions.
+
+For uploaded images, the default workflow is the proven repository binary-upload process: exact uploaded bytes -> base64 -> GitHub blob -> repository tree -> page reference -> final QA deployment check.
+
+The agent must not claim that GitHub write access is unavailable unless it has checked the currently available tools in that turn.
+
 ## Image and binary file updates
 
 When a user uploads an image or other binary asset:
