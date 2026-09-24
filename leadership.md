@@ -20,9 +20,12 @@ title: BRMA Leadership
     </div>
 
     <div class="leadership-grid">
-      <article class="leader-card">
-        <div class="leader-role">President</div>
-        <h3>Renuka Darbha</h3>
+      <article class="leader-card leader-card-photo">
+        <img class="leader-photo" src="/brma-website-qa/assets/images/leadership/renuka-darbha.jpg" alt="Renuka Darbha">
+        <div class="leader-card-copy">
+          <div class="leader-role">President</div>
+          <h3>Renuka Darbha</h3>
+        </div>
       </article>
       <article class="leader-card">
         <div class="leader-role">Secretary &amp; VP</div>
