@@ -4,7 +4,7 @@ title: Business Recovery Managers Association
 ---
 
 <section class="hero-slider" aria-label="BRMA focus areas">
-  <article class="hero-slide active" style="background-image: url('/brma-website-qa/assets/images/hero-business-continuity.png');">
+  <article class="hero-slide active" style="--hero-image: url('/brma-website-qa/assets/images/hero-business-continuity.png');">
     <div class="hero-shade"></div>
     <div class="hero-slide-inner">
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
@@ -16,7 +16,7 @@ title: Business Recovery Managers Association
     </div>
   </article>
 
-  <article class="hero-slide" style="background-image: url('/brma-website-qa/assets/images/hero-organizational-resiliency.png');">
+  <article class="hero-slide" style="--hero-image: url('/brma-website-qa/assets/images/hero-organizational-resiliency.png');">
     <div class="hero-shade"></div>
     <div class="hero-slide-inner">
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
@@ -28,7 +28,7 @@ title: Business Recovery Managers Association
     </div>
   </article>
 
-  <article class="hero-slide" style="background-image: url('/brma-website-qa/assets/images/hero-risk-management.png');">
+  <article class="hero-slide" style="--hero-image: url('/brma-website-qa/assets/images/hero-risk-management.png');">
     <div class="hero-shade"></div>
     <div class="hero-slide-inner">
       <p class="hero-kicker">Dedicated to the advancement and practice of</p>
