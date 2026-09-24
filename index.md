@@ -3,28 +3,52 @@ layout: default
 title: Business Recovery Managers Association
 ---
 
-<section class="hero">
-  <div class="hero-inner">
-    <div>
-      <span class="eyebrow">Business Recovery Managers Association · Since 1995</span>
-      <h1>Build resilience. Learn from peers. Be ready.</h1>
-      <p>BRMA brings together professionals working across business continuity, organizational resiliency, crisis management, disaster recovery, emergency management, and risk.</p>
+<section class="hero-slider" aria-label="BRMA focus areas">
+  <article class="hero-slide active" style="background-image: url('/brma-website-qa/assets/images/hero-business-continuity.png');">
+    <div class="hero-shade"></div>
+    <div class="hero-slide-inner">
+      <p class="hero-kicker">Dedicated to the advancement and practice of</p>
+      <h1>business continuity</h1>
       <div class="hero-actions">
-        <a class="button button-primary" href="#membership">Become a member</a>
-        <a class="button button-secondary" href="#event">See the next event</a>
+        <a class="button button-primary" href="#membership">Become a Member</a>
+        <a class="button button-secondary" href="#about">Learn More</a>
       </div>
     </div>
-    <aside class="hero-panel">
-      <strong>A community built around practice.</strong>
-      <ul>
-        <li>Real-world learning from experienced practitioners</li>
-        <li>Professional networking across industries</li>
-        <li>In-person meetings, webinars, mentoring, and resources</li>
-      </ul>
-    </aside>
+  </article>
+
+  <article class="hero-slide" style="background-image: url('/brma-website-qa/assets/images/hero-organizational-resiliency.png');">
+    <div class="hero-shade"></div>
+    <div class="hero-slide-inner">
+      <p class="hero-kicker">Dedicated to the advancement and practice of</p>
+      <h1>organizational resiliency</h1>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#membership">Become a Member</a>
+        <a class="button button-secondary" href="#about">Learn More</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="hero-slide" style="background-image: url('/brma-website-qa/assets/images/hero-risk-management.png');">
+    <div class="hero-shade"></div>
+    <div class="hero-slide-inner">
+      <p class="hero-kicker">Dedicated to the advancement and practice of</p>
+      <h1>risk management</h1>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#membership">Become a Member</a>
+        <a class="button button-secondary" href="#about">Learn More</a>
+      </div>
+    </div>
+  </article>
+
+  <button class="hero-arrow hero-arrow-prev" type="button" data-hero-prev aria-label="Previous hero slide">‹</button>
+  <button class="hero-arrow hero-arrow-next" type="button" data-hero-next aria-label="Next hero slide">›</button>
+
+  <div class="hero-dots" aria-label="Hero slide navigation">
+    <button class="hero-dot active" type="button" data-hero-dot="0" aria-label="Show business continuity slide"></button>
+    <button class="hero-dot" type="button" data-hero-dot="1" aria-label="Show organizational resiliency slide"></button>
+    <button class="hero-dot" type="button" data-hero-dot="2" aria-label="Show risk management slide"></button>
   </div>
 </section>
-
 <section class="section" id="about">
   <div class="section-inner">
     <div class="section-heading">
