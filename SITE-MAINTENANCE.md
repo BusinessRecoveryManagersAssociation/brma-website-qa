@@ -2,6 +2,18 @@
 
 This repository is the QA version of the BRMA website. Routine website maintenance should be performed through ChatGPT/Codex, with GitHub acting as the source of truth.
 
+## Production protection rule
+
+All website edits are performed on the QA site first and remain there by default.
+
+Do not edit, overwrite, merge into, or otherwise change the production site unless the user explicitly instructs you to publish/promote QA to production.
+
+Valid production authorization includes clear instructions such as "push to production," "publish QA," "update production with QA," "make production match QA," or equivalent explicit language.
+
+Silence, approval of a QA design, or a request to make another QA change is not authorization to update production.
+
+When production authorization is given, promote the approved QA state to production. Otherwise, make no production changes.
+
 ## Required workflow
 
 1. Make requested changes in the QA repository first.
